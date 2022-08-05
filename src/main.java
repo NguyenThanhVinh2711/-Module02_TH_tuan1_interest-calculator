@@ -15,7 +15,7 @@ public class main {
 
         double totalInterest = 0;
         for (int i = 0; i < month; i++) {
-            totalInterest = totalInterest + money*(interestRate/100)/12*month;
+            totalInterest = totalInterest + money*(interestRate/100)/12;
         }
         System.out.println( "Tong tien lai sau " + month + " thang la : " + totalInterest);
     }
